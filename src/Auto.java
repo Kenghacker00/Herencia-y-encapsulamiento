@@ -32,7 +32,7 @@ public class Auto extends VehiculoPasajeros {
         System.out.println("3. cambio de llanta. ");
     }
 
-    public void CostoMantenimiento(double kmRecorridoss, double costoKMrecorrido) {
+    public void calcularCostoMantenimiento(double kmRecorridoss, double costoKMrecorrido) {
         double costoTotal = costoKMrecorrido * kmRecorridoss;
         System.out.println(costoTotal + " $ ");
 

@@ -17,7 +17,7 @@ public class App {
         camion.RealizarMantenimiento();
 
         System.out.println("El costo total del mantenimiento es: ");
-        auto.CostoMantenimiento(50000, 0.80);
+        auto.calcularCostoMantenimiento(50000, 0.80);
 
     }
 }
