@@ -10,9 +10,14 @@ public class App {
         // Mostrar la informacion de cada vehiculo
         System.out.println("Informacion del Auto:");
         auto.mostrarInfo();
+        auto.RealizarMantenimiento();
 
         System.out.println("\nInformacion del Camion:");
         camion.mostrarInfo();
-    }
+        camion.RealizarMantenimiento();
 
+        System.out.println("El costo total del mantenimiento es: ");
+        auto.CostoMantenimiento(50000, 0.80);
+
+    }
 }
